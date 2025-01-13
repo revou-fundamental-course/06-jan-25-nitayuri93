@@ -1,0 +1,49 @@
+/* File CSS */
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-icon {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-image: url(https://pbs.twimg.com/profile_images/1809314827564711936/KU3Rjx5C_400x400.jpg);
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+}
+
+.left-rounded {
+    border-radius: 8px 0 0 8px;
+}
+
+.right-rounded {
+    border-radius: 0 8px 8px 0;
+}
+
+nav>a {
+    border: 1px solid black;
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+}
+
+.banner-image {
+    height: 450px;
+    background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/20287.jpg/1366);
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    height: 500px;
+}
+
+footer {
+    text-align: center;
+}
